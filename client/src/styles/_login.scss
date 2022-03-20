@@ -1,0 +1,20 @@
+.login {
+
+    @media (min-width: 700px) {
+        margin-left: 80px;
+    }
+
+    &__btn {
+        margin: 0 20px;
+        line-height: 50px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        user-select: none;
+        // text-transform: uppercase;
+
+        @media (min-width: 700px) {
+            font-size: 20px;
+        }
+    }
+}

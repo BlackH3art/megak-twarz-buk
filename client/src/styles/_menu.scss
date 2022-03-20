@@ -1,0 +1,37 @@
+.menu {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+
+    @media (min-width: 700px) {
+        justify-content: flex-start;
+    }
+
+    &__list {
+        display: flex;
+    }
+
+    &__item {}
+
+    &__link {
+        padding: 0 10px;
+        line-height: 50px;
+        font-size: 18px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+
+        &.active {
+            color: $main-color;
+        }
+
+        &:hover {
+            color: $main-color;
+        }
+
+        @media (min-width: 700px) {
+            padding: 0 20px;
+            font-size: 20px;
+        }
+    }
+}

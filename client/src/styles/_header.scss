@@ -1,0 +1,12 @@
+.header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 10px;
+    border-bottom: 1px solid black;
+
+    @media (min-width: 700px) {
+        justify-content: flex-start;
+    }
+}

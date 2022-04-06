@@ -1,4 +1,4 @@
-import Login from './Login';
+import Logout from './Logout';
 import Logo from './Logo';
 import Nav from './Nav';
 
@@ -7,7 +7,7 @@ const Header = () => {
         <header className="header">
             <Logo />
             <Nav />
-            <Login />
+            <Logout />
         </header>
     );
 };
